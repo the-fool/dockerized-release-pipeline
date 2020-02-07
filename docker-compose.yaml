@@ -8,5 +8,6 @@ services:
         source: .
         target: /pipeline
     entrypoint: /pipeline/entrypoint.sh
+    command: /pipeline/do.sh
     environment:
       - PROJECT=[YOUR PROJECT ID]
